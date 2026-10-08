@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nmhec"
+version = "0.1.0"
+description = "Moving horizon estimation and predictive path following for generalised N-trailer vehicles"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Nestor Nahuel Deniz"}]
+dependencies = ["casadi>=3.6", "numpy>=1.24", "matplotlib>=3.7", "pyyaml>=6.0"]
+
+[project.urls]
+Repository = "https://github.com/nahueldeniz/nmhec"
+Paper = "https://doi.org/10.1016/j.conengprac.2023.105747"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["nmhec"]

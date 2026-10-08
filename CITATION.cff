@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper it reimplements."
+title: "nmhec: moving horizon estimation and predictive path following for generalised N-trailer vehicles"
+authors:
+  - family-names: Deniz
+    given-names: Nestor Nahuel
+license: MIT
+repository-code: "https://github.com/nahueldeniz/nmhec"
+preferred-citation:
+  type: article
+  title: "Model predictive path-following controller for Generalised N-Trailer vehicles with noisy sensors and disturbances"
+  authors:
+    - family-names: Deniz
+      given-names: Nestor
+    - family-names: Jorquera
+      given-names: Franco
+    - family-names: Torres-Torriti
+      given-names: Miguel
+    - family-names: Auat Cheein
+      given-names: Fernando
+  journal: "Control Engineering Practice"
+  volume: 142
+  start: 105747
+  year: 2024
+  doi: 10.1016/j.conengprac.2023.105747
